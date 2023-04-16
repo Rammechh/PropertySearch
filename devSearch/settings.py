@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-uq)a1ff34q_8r7m&+n#)0nsy#^7^fe$_hwg&5*+one2ebz*r^)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'rammechh.pythonanywhere.com', 'propertysearchh.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -185,7 +185,7 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER  = 'ramk15536@gmail.com'
-EMAIL_HOST_PASSWORD = 'dysmucxwaqwwfzci'
+EMAIL_HOST_PASSWORD = ''
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
@@ -209,7 +209,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'static/images')
 # AWS_QUERYSTRING_AUTH = False
 # AWS_S3_FILE_OVERWRITE = False
 # AWS_ACCESS_KEY_ID = 'AKIAYDEQ4XHP5DZJFAV4'
-# AWS_SECRET_ACCESS_KEY = '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'
+# AWS_SECRET_ACCESS_KEY = ''
 # AWS_STORAGE_BUCKET_NAME = 'devsearch-bucket2'
 
 
